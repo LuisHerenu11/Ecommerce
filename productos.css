@@ -21,6 +21,7 @@
       "descripcion"
       "botonComprar";
     grid-area: producto1;
+    width: 33.33%;
 }
   
 .imagen { grid-area: imagen; }
@@ -39,6 +40,7 @@
       "descripcion2"
       "botonComprar2";
     grid-area: producto2;
+    width: 33.33%;
 }
   
 .imagen2 { grid-area: imagen2; }
@@ -57,6 +59,7 @@
       "descripcion3"
       "botonComprar3";
     grid-area: producto3;
+    width: 33.33%;
 }
   
 .imagen3 { grid-area: imagen3; }
@@ -75,6 +78,7 @@
       "descripcion4"
       "botonComprar4";
     grid-area: producto4;
+    width: 33.33%;
 }
   
 .imagen4 { grid-area: imagen4; }
@@ -93,6 +97,7 @@
       "descripcion5"
       "botonComprar5";
     grid-area: producto5;
+    width: 33.33%;
 }
   
 .imagen5 { grid-area: imagen5; }
@@ -111,6 +116,7 @@
       "descripcion6"
       "botonComprar6";
     grid-area: producto6;
+    width: 33.33%;
 }
   
 .imagen6 { grid-area: imagen6; }
@@ -129,6 +135,7 @@
       "descripcion7"
       "botonComprar7";
     grid-area: producto7;
+    width: 33.33%;
 }
   
 .imagen7 { grid-area: imagen7; }
@@ -147,6 +154,7 @@
       "descripcion8"
       "botonComprar8";
     grid-area: producto8;
+    width: 33.33%;
 }
   
 .imagen8 { grid-area: imagen8; }
