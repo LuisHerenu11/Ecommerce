@@ -1,0 +1,157 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title title title title"
+      "producto1 producto2 producto3 producto4"
+      "producto5 producto6 producto7 producto8";
+}
+  
+.title { grid-area: title; }
+  
+.producto1 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen"
+      "descripcion"
+      "botonComprar";
+    grid-area: producto1;
+}
+  
+.imagen { grid-area: imagen; }
+  
+.descripcion { grid-area: descripcion; }
+  
+.botonComprar { grid-area: botonComprar; }
+  
+.producto2 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen2"
+      "descripcion2"
+      "botonComprar2";
+    grid-area: producto2;
+}
+  
+.imagen2 { grid-area: imagen2; }
+  
+.descripcion2 { grid-area: descripcion2; }
+  
+.botonComprar2 { grid-area: botonComprar2; }
+  
+.producto3 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen3"
+      "descripcion3"
+      "botonComprar3";
+    grid-area: producto3;
+}
+  
+.imagen3 { grid-area: imagen3; }
+  
+.descripcion3 { grid-area: descripcion3; }
+  
+.botonComprar3 { grid-area: botonComprar3; }
+  
+.producto4 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen4"
+      "descripcion4"
+      "botonComprar4";
+    grid-area: producto4;
+}
+  
+.imagen4 { grid-area: imagen4; }
+  
+.descripcion4 { grid-area: descripcion4; }
+  
+.botonComprar4 { grid-area: botonComprar4; }
+  
+.producto5 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen5"
+      "descripcion5"
+      "botonComprar5";
+    grid-area: producto5;
+}
+  
+.imagen5 { grid-area: imagen5; }
+  
+.descripcion5 { grid-area: descripcion5; }
+  
+.botonComprar5 { grid-area: botonComprar5; }
+  
+.producto6 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen6"
+      "descripcion6"
+      "botonComprar6";
+    grid-area: producto6;
+}
+  
+.imagen6 { grid-area: imagen6; }
+  
+.descripcion6 { grid-area: descripcion6; }
+  
+.botonComprar6 { grid-area: botonComprar6; }
+  
+.producto7 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen7"
+      "descripcion7"
+      "botonComprar7";
+    grid-area: producto7;
+}
+  
+.imagen7 { grid-area: imagen7; }
+  
+.descripcion7 { grid-area: descripcion7; }
+  
+.botonComprar7 { grid-area: botonComprar7; }
+  
+.producto8 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen8"
+      "descripcion8"
+      "botonComprar8";
+    grid-area: producto8;
+}
+  
+.imagen8 { grid-area: imagen8; }
+  
+.descripcion8 { grid-area: descripcion8; }
+  
+.botonComprar8 { grid-area: botonComprar8; }
+  
