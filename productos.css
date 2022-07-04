@@ -162,4 +162,17 @@
 .descripcion8 { grid-area: descripcion8; }
   
 .botonComprar8 { grid-area: botonComprar8; }
-  
+
+
+/* aplica flotacion izquierda a todos los elementos html que tengan clase producto */
+[class*="producto"]{
+    float: left;
+    padding: 3px;
+}
+
+/* evita el solapamiento por lo definido arriba */
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}

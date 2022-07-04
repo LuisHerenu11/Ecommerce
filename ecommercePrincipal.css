@@ -93,3 +93,10 @@ ul{
     /* defino el estilo de los BULLETS / PUNTOS que numeran items de lista como NADA, haciendo que no se vean */
     list-style-type: none;
 }
+
+/* en pantallas menores a 767 cambiara el nav, header, footer para ocupar el 100% del width*/
+@media only screen and (max-width: 767px){
+    nav, header, footer {
+        width: 100%;
+    }
+}
