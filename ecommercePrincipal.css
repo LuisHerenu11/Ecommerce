@@ -6,16 +6,18 @@
 #github{
     width: 90px;
     height: 90px;
-    background-color: darkgray;
+    background-color: whitesmoke;
     border: 3px solid #ffaa00;
 }
 
-#titulo{
+.titulo{
     text-align: center;
     background-color: #000000;
     color:#f6ff00;
-    height: 70px;
-    width: 680px;
+    /* height: 70px; */
+    height: 100%;
+    /*width: 680px;*/
+    width: 100%;
     margin: auto;
     font-size: 50px;
     border: 5px solid #ffa200;
@@ -23,9 +25,11 @@
 }
 
 .margenSuperiorIzquierdo{
+    margin-top: 5px;
+    margin-left: 5px;
     float:left;
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
 }
 
 header{
@@ -65,7 +69,7 @@ body{
     min-height: 100vh;   /* usado para fijar el footer al bottom*/
 }
 
-#ajusteVentana{
+.ajusteVentana{
     width: auto;
     margin-left: auto;
     margin-right: auto;

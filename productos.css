@@ -5,18 +5,14 @@
 
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "title title title title"
       "producto1 producto2 producto3 producto4"
       "producto5 producto6 producto7 producto8";
-}
-  
-.title { 
-    grid-area: title; 
-    height: 100px;
+    width: 100vw;
+    margin-top: 1vw;  
 }
   
 .producto1 {  display: grid;
@@ -32,13 +28,16 @@
     background-color: darkslategrey;
     border-radius: 5px;
     border: 2px solid black;
+    height: 60%;
 }
   
 .imagen { grid-area: imagen; }
   
 .descripcion { grid-area: descripcion; }
   
-.botonComprar { grid-area: botonComprar; }
+.botonComprar { 
+    grid-area: botonComprar;
+}
   
 .producto2 {  display: grid;
     grid-template-columns: 1fr;
@@ -50,6 +49,10 @@
       "descripcion2"
       "botonComprar2";
     grid-area: producto2;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 60%;
 }
   
 .imagen2 { grid-area: imagen2; }
@@ -68,6 +71,10 @@
       "descripcion3"
       "botonComprar3";
     grid-area: producto3;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 60%;
 }
   
 .imagen3 { grid-area: imagen3; }
@@ -86,6 +93,10 @@
       "descripcion4"
       "botonComprar4";
     grid-area: producto4;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 60%;
 }
   
 .imagen4 { grid-area: imagen4; }
@@ -180,19 +191,21 @@
 	display: table;
 }
 
-#github{
+.github{
     width: 90px;
     height: 90px;
-    background-color: darkgrey;
+    background-color: whitesmoke;
     border: 3px solid #ffaa00;
 }
 
-#titulo{
+.titulo{
     text-align: center;
     background-color: #000000;
     color:#f6ff00;
-    height: 70px;
-    width: 680px;
+    /* height: 70px; */
+    height: 100%;
+    /*width: 680px;*/
+    width: 100%;
     margin: auto;
     font-size: 50px;
     border: 5px solid #ffa200;
@@ -200,9 +213,11 @@
 }
 
 .margenSuperiorIzquierdo{
+    margin-top: 5px;
+    margin-left: 5px;
     float:left;
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
 }
 
 header{
@@ -254,6 +269,25 @@ table{
     background-color: ivory;
     border-radius: 5px;
     border:5px solid #ffa200;
+}
+
+thead{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.imagenProductoContenida{
+    height: 80%;
+    width: 90%;
+    justify-self: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.centradoVertical{
+    height: 100%;
+    /*justify-content: center;  esto es horizontal */
+    align-content: center; /* esto es vertical */
 }
 
 @media only screen and (max-width: 767px){
